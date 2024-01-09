@@ -52,7 +52,7 @@ function App() {
           </div>
             <div className='resident__container'>
               {
-                location?.residents.map( (url) => (
+                location?.residents?.map( (url) => (
                   <ResidentCard 
                     key={url}
                     url={url}
