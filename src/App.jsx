@@ -42,7 +42,7 @@ function App() {
       </div>
       {
         hasError
-        ? <h2>❌ Hey! you must provide an id from 1 to 126. 😵 </h2>
+        ? <h2>❌ Hey! you must provide an id from 1 to 126 😵 </h2>
         : (
           <>
           <div className='location__container'>
